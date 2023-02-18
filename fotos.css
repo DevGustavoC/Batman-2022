@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-color:#000;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #000;
+}
+
+li:hover {
+    color: #D21617;
+    /* text-decoration: underline; */
+}
+
+#fotos {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.container {
+    width: 95%;
+    height: 100%;
+    background-color: #000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);    
+    row-gap: 30px;
+    column-gap: 30px;
+    border-radius: 5px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.container2:hover {
+    transform: scale(1.02);
+}
+
+.img {
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg?w=1200&h=1200&crop=1');
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url('https://midias.correiobraziliense.com.br/_midias/jpg/2022/01/20/675x450/1_26157815-7354644.jpg?20220120100834?20220120100834');
+    background-size: cover;
+}
+.img3 {
+    background-image: url('https://cdn.pocket-lint.com/r/s/970x/assets/images/160293-homepage-news-feature-how-to-watch-the-batman-2022-is-the-new-batman-available-to-stream-yet-image1-sa1kvohrpw.jpg');
+    background-size: cover;
+}
+.img4 {
+    background-image: url('https://cinemacao.com/wp-content/uploads/2022/03/batman-2-1130x590.jpg');
+    background-size: cover;
+}
+.img5 {
+    background-image: url('https://vertentesdocinema.com/wp-content/uploads/2022/03/big-poster-filme-batman-2022-90x60-cm-lo002-poster-batman.jpg');
+    background-size: cover;
+}
+.img6 {
+    background-image: url('data:image/jpeg;base64,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');
+    background-size: cover;
+}
+.img7 {
+    background-image: url('https://www.tvpop.com.br/wp-content/uploads/2022/03/Batman-1-1024x576.png');
+    background-size: cover;
+}
+.img8 {
+    background-image: url('https://img.olhardigital.com.br/wp-content/uploads/2022/03/batman-hbo-max-1024x576.jpeg');
+    background-size: cover;
+}
+.img9 {
+    background-image: url('https://blogger.googleusercontent.com/img/a/AVvXsEgvo17BzP6dLtlQVh1T4mz4WaHMKK0jNhHztV6SJQnDffcxaEOHGXCbEV2CCvtVfBq7HcD3gxWQQ9MTvbyo9QWLQBXWt_Bwv8nRwxUZg2S2KqN2Tdo7195dRM3wUUArsrt0MOFeKya_wcECnqBKuvBRg1zVjAKtC5lyBY2QwJLGIxLVfLSLY6zwtKLBFQ=s320');
+    background-size: cover;
+}
+.img10 {
+    background-image: url('https://i1.wp.com/www.dci.com.br/wp-content/uploads/2022/02/quem-e-o-novo-batman-2022.jpg');
+    background-size: cover;
+}
+.img11 {
+    background-image: url('https://t2.tudocdn.net/614415?w=1200&h=1200');
+    background-size: cover;
+}
+.img12 {
+    background-image: url('https://www.cinemaescrito.com/wp-content/uploads/2022/03/the-batman-910x515.jpg');
+    background-size: cover;
+}
+
+
+
+footer {
+    height: 300px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#insta:hover {
+    text-decoration: underline;    
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#avalie {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('./batman-banner.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    width: 500px;
+    height: 550px;
+    background-color: transparent;
+    border: 20px double #000;
+}
+
+.bloco2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+h1 {
+    color: #fff;
+    background-color: transparent;
+    margin-bottom: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+form {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: transparent;
+}
+
+span {
+    display: block;
+    background-color: transparent;
+    cursor: default;
+}
+
+input {
+    display: block;
+    color: #fff;
+    border: 2px solid #000;
+    outline: unset;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .8s;
+}
+
+input:hover {
+    background-color: #7b0a0a94;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.676);
+}
+
+input:focus {
+    background-color: #7b0a0a94;
+
+}
+
+label {
+    background-color: transparent;
+}
+
+.rate {
+    margin-bottom: 30px;
+    width: 450px;
+    height: 20px;
+    background-color: transparent;
+
+}
+
+select {
+    color: #fff;
+    margin-bottom: 30px;
+    width: 450px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+    outline: unset;
+    cursor: pointer;
+    transition: .8s;
+}
+
+select:hover {
+    background-color: #7b0a0a94;
+}
+
+span {
+    margin-bottom: 5px;
+}
+
+.coracao {
+    width: 450px;
+    height: 20px;
+    background-color: transparent;
+
+}
+
+option {
+    height: 20px;
+    background-color: #D21617;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #D21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid black;
+    outline: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#insta:hover {
+    text-decoration: underline;    
+}
